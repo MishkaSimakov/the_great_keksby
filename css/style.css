@@ -8,14 +8,31 @@ body {
     background-color: white;
 }
 
-.page-header,
-.page-footer {
+.page-header {
     padding: 10px;
-    background-color: #eeeeee;
+    background-color: #363636;
+    color: #c3c3c3;
 }
 
-.page-footer {
-    margin-top: 20px;
+.main-nav {
+    list-style: none;
+}
+
+.main-nav li {
+    text-transform: uppercase;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-nav a:hover {
+    text-decoration: underline;
+}
+
+.main-nav a:active {
+    color: rgba(255, 255, 255, 0.3);
 }
 
 .price-list {
@@ -49,15 +66,8 @@ body {
     padding: 10px 0;
 }
 
-.main-nav {
-    list-style: none;
-}
-
-.main-nav > li {
-    text-transform: uppercase;
-}
-
-.page-header {
-    background-color: #363636;
-    color: #c3c3c3;
+.page-footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #eeeeee;
 }
