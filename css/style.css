@@ -75,6 +75,14 @@ body {
     border-left: none;
 }
 
+.feature-title {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    font-family: "Georgia", serif;
+    color: #a38b70;
+}
+
 .feature-item p {
     font-size: 16px;
 }
@@ -116,10 +124,14 @@ body {
     background-color: #eeeeee;
 }
 
-.feature-title {
-    font-family: "Georgia", serif;
-    font-size: 30px;
-    line-height: 30px;
+.cat-reference {
+    background-color: #f2f2f2;
+}
+
+.section-title {
     font-weight: bold;
+    font-size: 45px;
+    line-height: 55px;
+    font-family: "Georgia", serif;
     color: #a38b70;
 }
