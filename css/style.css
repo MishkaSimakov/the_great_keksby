@@ -62,6 +62,23 @@ body {
     text-decoration: none;
 }
 
+.features ul {
+    list-style: none;
+}
+
+.feature-item {
+    text-align: center;
+    border-left: 1px solid #d9d9d9;
+}
+
+.feature-item:first-child {
+    border-left: none;
+}
+
+.feature-item p {
+    font-size: 16px;
+}
+
 .price-list {
     width: 100%;
     border-collapse: collapse;
@@ -99,19 +116,10 @@ body {
     background-color: #eeeeee;
 }
 
-.features ul {
-    list-style: none;
-}
-
-.feature-item {
-    text-align: center;
-    border-left: 1px solid #d9d9d9;
-}
-
-.feature-item:first-child {
-    border: none;
-}
-
-.feature-item p {
-    font-size: 16px;
+.feature-title {
+    font-family: "Georgia", serif;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #a38b70;
 }
