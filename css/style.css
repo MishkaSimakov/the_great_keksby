@@ -23,8 +23,8 @@ body {
 }
 
 .main-nav a {
+    color: #ffffff;
     text-decoration: none;
-    color: white;
 }
 
 .main-nav a:hover {
@@ -70,4 +70,18 @@ body {
     margin-top: 20px;
     padding: 10px;
     background-color: #eeeeee;
+}
+
+.btn {
+    color: #a38b70;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    color: #8d745a;
+}
+
+.btn:active {
+    color: rgba(141, 116, 90, 0.3);
 }
