@@ -6,6 +6,7 @@ body {
     font-family: "Arial", sans-serif;
     color: #404040;
     background-color: white;
+    min-width: 1040px;
 }
 
 .page-header {
@@ -88,11 +89,9 @@ body {
     background: url("img/feature-1.png") top center no-repeat;
 }
 
-
 .feature-quality {
     background: url("img/feature-2.png") top center no-repeat;
 }
-
 
 .feature-safety {
     background: url("img/feature-3.png") top center no-repeat;
