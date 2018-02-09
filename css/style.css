@@ -289,3 +289,21 @@ body {
 .footer-copyright a:active {
     color: rgba(255, 255, 255, 0.3);
 }
+
+.feature-choice {
+    background-image: url("img/feature-1.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.feature-quality {
+    background-image: url("img/feature-2.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.feature-safety {
+    background-image: url("img/feature-3.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+}
