@@ -256,11 +256,29 @@ body {
 }
 
 .footer-social b {
-    font-family: "Georgia", serif;
     font-size: 24px;
+    font-family: "Georgia", serif;
     color: #a38b70;
 }
 
 .social-btn {
     color: #ffffff;
+}
+
+.footer-copyright {
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.footer-copyright a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-copyright a:hover {
+    text-decoration: underline;
+}
+
+.footer-copyright a:active {
+    color: rgba(255, 255, 255, 0.3);
 }
