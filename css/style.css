@@ -155,15 +155,18 @@ body {
 .price-list {
     width: 100%;
     border-collapse: collapse;
+    line-height: 30px;
 }
 
 .price-list th {
     font-weight: normal;
+    font-size: 14px;
     text-align: left;
+    text-transform: uppercase;
 }
 
 .price-list td {
-    border: 1px solid #333333;
+    border: 1px solid #d8d8d8;
 }
 
 .price-list th,
@@ -177,6 +180,7 @@ body {
 
 .price-list .price-name {
     font-weight: bold;
+    color: #000000;
 }
 
 .feedback-form-group {
@@ -189,19 +193,11 @@ body {
     background-color: #eeeeee;
 }
 
-.price-list {
-    line-height: 30px;
+.feedback-tip {
+    font-size: 16px;
 }
 
-.price-list th {
-    font-size: 14px;
+.feedback-form-group label {
     text-transform: uppercase;
-}
-
-.price-list td {
-    border-color: #d8d8d8;
-}
-
-.price-name {
-    color: black;
+    font-size: 12px;
 }
