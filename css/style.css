@@ -117,6 +117,18 @@ body {
     font-style: italic;
 }
 
+.reference-source a {
+    color: #a38b70;
+}
+
+.reference-source a:hover {
+    color: #8d745a;
+}
+
+.reference-source a:active {
+    color: rgba(141, 116, 90, 0.3);
+}
+
 .price-list {
     width: 100%;
     border-collapse: collapse;
@@ -154,14 +166,12 @@ body {
     background-color: #eeeeee;
 }
 
-.reference-source a {
-    color: #a38b70;
+.review-item {
+    font-size: 16px;
+    border-left: 3px solid #a38b70;
 }
 
-.reference-source a:hover {
-    color: #8d745a;
-}
-
-.reference-source a:active {
-    color: rgba(141, 116, 90, 0.3);
+.review-author {
+    font-weight: bold;
+    font-style: italic;
 }
