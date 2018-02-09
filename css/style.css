@@ -139,6 +139,19 @@ body {
     font-style: italic;
 }
 
+.popular-and-price {
+    background-color: #f2f2f2;
+}
+
+.catalog-item {
+    font-size: 16px;
+}
+
+.catalog-item h3 {
+    font-size: 16px;
+    color: #000000;
+}
+
 .price-list {
     width: 100%;
     border-collapse: collapse;
@@ -176,15 +189,19 @@ body {
     background-color: #eeeeee;
 }
 
-.popular-and-price {
-    background-color: #f2f2f2;
+.price-list {
+    line-height: 30px;
 }
 
-.catalog-item {
-    font-size: 16px;
+.price-list th {
+    font-size: 14px;
+    text-transform: uppercase;
 }
 
-.catalog-item h3 {
-    font-size: 16px;
+.price-list td {
+    border-color: #d8d8d8;
+}
+
+.price-name {
     color: black;
 }
