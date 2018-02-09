@@ -129,6 +129,16 @@ body {
     color: rgba(141, 116, 90, 0.3);
 }
 
+.review-item {
+    font-size: 16px;
+    border-left: 3px solid #a38b70;
+}
+
+.review-author {
+    font-weight: bold;
+    font-style: italic;
+}
+
 .price-list {
     width: 100%;
     border-collapse: collapse;
@@ -166,12 +176,15 @@ body {
     background-color: #eeeeee;
 }
 
-.review-item {
-    font-size: 16px;
-    border-left: 3px solid #a38b70;
+.popular-and-price {
+    background-color: #f2f2f2;
 }
 
-.review-author {
-    font-weight: bold;
-    font-style: italic;
+.catalog-item {
+    font-size: 16px;
+}
+
+.catalog-item h3 {
+    font-size: 16px;
+    color: black;
 }
