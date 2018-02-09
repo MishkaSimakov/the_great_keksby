@@ -221,3 +221,7 @@ body {
     padding: 10px;
     background-color: #eeeeee;
 }
+
+.checkbox-area {
+    border-bottom: 1px solid #d5d5d5;
+}
