@@ -183,21 +183,41 @@ body {
     color: #000000;
 }
 
+.feedback-tip {
+    font-size: 16px;
+}
+
 .feedback-form-group {
     padding: 10px 0;
+}
+
+.feedback-form-group label {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.feedback-form input[type="text"],
+.feedback-form select,
+.feedback-form textarea {
+    font: inherit;
+    color: inherit;
+    border: 2px solid #d5d5d5;
+}
+
+.feedback-form input[type="text"]:hover,
+.feedback-form select:hover,
+.feedback-form textarea:hover {
+    border-color: #bebebe;
+}
+
+.feedback-form input[type="text"]:focus,
+.feedback-form select:focus,
+.feedback-form textarea:focus {
+    border-color: #8d745a;
 }
 
 .page-footer {
     margin-top: 20px;
     padding: 10px;
     background-color: #eeeeee;
-}
-
-.feedback-tip {
-    font-size: 16px;
-}
-
-.feedback-form-group label {
-    text-transform: uppercase;
-    font-size: 12px;
 }
