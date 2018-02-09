@@ -23,6 +23,21 @@ body {
     background-size: cover;
 }
 
+.header-logo {
+    float: left;
+    width: 205px;
+    height: 55px;
+}
+
+.main-nav {
+    float: left;
+    width: 520px;
+}
+
+.btn-quick-order {
+    float: right;
+}
+
 .page-header,
 .page-footer {
     background-color: #363636;
