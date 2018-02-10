@@ -48,9 +48,7 @@ body {
 .main-nav {
     float: left;
     width: 520px;
-    margin: 0;
     margin-left: 125px;
-    padding: 0;
     list-style: none;
 }
 
@@ -215,6 +213,11 @@ body {
 }
 
 .review-item {
+    width: 377px;
+    margin: 0px;
+    margin-right: 80px;
+    padding: 0px;
+    padding-left: 50px;
     float: left;
     font-size: 16px;
     border-left: 3px solid #a38b70;
