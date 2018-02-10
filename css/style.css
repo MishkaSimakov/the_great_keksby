@@ -108,17 +108,17 @@ body {
 }
 
 .features ul {
-    list-style: none;
-    padding: 0;
     margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 .feature-item {
+    float: left;
     width: 279px;
+    padding-top: 90px;
     padding-right: 30px;
     padding-left: 30px;
-    float: left;
-    padding-top: 90px;
     text-align: center;
     border-left: 1px solid #d9d9d9;
 }
@@ -152,6 +152,8 @@ body {
 }
 
 .cat-reference {
+    padding-top: 70px;
+    padding-bottom: 90px;
     background-color: #f2f2f2;
 }
 
@@ -161,6 +163,10 @@ body {
     line-height: 55px;
     font-family: "Georgia", serif;
     color: #a38b70;
+}
+
+.cat-reference dl {
+    width: 820px;
 }
 
 .cat-reference dd {
