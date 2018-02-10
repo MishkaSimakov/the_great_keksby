@@ -241,12 +241,20 @@ body {
 }
 
 .catalog-item {
+    width: 308px;
+    margin-right: 48px;
+    float: left;
     font-size: 16px;
 }
 
 .catalog-item h3 {
     font-size: 16px;
     color: #000000;
+}
+
+.catalog-item img {
+    max-width: 100%;
+    height: auto;
 }
 
 .price-list {
