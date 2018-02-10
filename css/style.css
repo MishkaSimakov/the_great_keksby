@@ -169,8 +169,18 @@ body {
     width: 820px;
 }
 
+.cat-reference dt {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
 .cat-reference dd {
+    margin: 0;
     font-size: 16px;
+}
+
+.cat-reference dd + dt {
+    margin-top: 70px;
 }
 
 .cat-reference dd img {
